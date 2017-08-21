@@ -23,11 +23,22 @@ Plugin 'lervag/vimtex'
 Plugin 'honza/vim-snippets'
 " " Trigger configuration. Do not use <tab> if you use
 " https://github.com/Valloric/YouCompleteMe.
-let g:UltiSnipsExpandTrigger="<tab>"
+"
+"let g:ycm_key_list_select_completion=[]
+"let g:ycm_key_list_previous_completion=[]
+let g:UltiSnipsExpandTrigger="<c-j>"
 let g:UltiSnipsJumpForwardTrigger="<c-b>"
 let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 "
  " If you want :UltiSnipsEdit to split your window.
+ "
+ "
+ " Syntastic
+ Plugin 'scrooloose/syntastic'
+" Pep8 checking
+Plugin 'nvie/vim-flake8'
+
+
 let g:UltiSnipsEditSplit="vertical"
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -71,4 +82,11 @@ au BufNewFile,BufRead *.js, *.html, *.css
 let g:vimtex_compiler_latexmk = {'callback' : 0}
 let g:vimtex_view_method = 'zathura'
 
-set guifont=Monospace\ 16
+"set guifont=Monospace\ 16
+
+let python_highlight_all=1
+syntax on
+
+"colors zenburn
+"
+set clipboard=unnamed
