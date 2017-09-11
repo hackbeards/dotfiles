@@ -19,6 +19,8 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'jistr/vim-nerdtree-tabs'
 Plugin 'SirVer/ultisnips'
 Plugin 'lervag/vimtex'
+Plugin 'tpope/vim-fugitive'
+Plugin 'airblade/vim-gitgutter'
 " Snippets are separated from the engine. Add this if you want them:
 Plugin 'honza/vim-snippets'
 " " Trigger configuration. Do not use <tab> if you use
@@ -90,3 +92,8 @@ syntax on
 "colors zenburn
 "
 set clipboard=unnamed
+
+"powerline
+set  rtp+=/usr/local/lib/python2.7/dist-packages/powerline/bindings/vim/
+set laststatus=2
+set t_Co=256
