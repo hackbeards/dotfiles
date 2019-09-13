@@ -1,1 +1,0 @@
-/home/jan/.vim/bundle/ultisnips/ftdetect/snippets.vim
