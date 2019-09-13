@@ -21,6 +21,7 @@ Plugin 'SirVer/ultisnips'
 Plugin 'lervag/vimtex'
 Plugin 'tpope/vim-fugitive'
 Plugin 'airblade/vim-gitgutter'
+Plugin 'itchyny/calendar.vim'
 " Snippets are separated from the engine. Add this if you want them:
 Plugin 'honza/vim-snippets'
 " " Trigger configuration. Do not use <tab> if you use
